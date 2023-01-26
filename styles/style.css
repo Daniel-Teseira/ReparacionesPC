@@ -1,0 +1,22 @@
+
+
+header{
+  background-color: rgb(53, 53, 53);
+  padding: 0.5rem 0rem;
+}
+
+header li{
+  padding: 0rem 0.5rem;
+}
+
+.lista{
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(60, 110, 113);
+}
+
+.lista a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
