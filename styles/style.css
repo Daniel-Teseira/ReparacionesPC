@@ -13,6 +13,8 @@ header li{
   list-style-type: none;
   text-decoration: none;
   color: rgb(60, 110, 113);
+  padding: 0rem;
+  margin: 0rem;
 }
 
 .lista a{
@@ -20,3 +22,16 @@ header li{
   text-decoration: none;
 }
 
+
+@media screen and (min-width:993px){
+  main{
+    padding: 3rem 10rem 3rem 10rem;
+  }
+  form input, textarea{
+    padding: 0.2rem;
+    margin: 1rem;
+  }
+  .informacion{
+    padding: 3rem 0rem 0rem 10rem;
+  }
+}
