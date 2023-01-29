@@ -22,10 +22,27 @@ header li{
   text-decoration: none;
 }
 
+.grupo-1{
+  background-color: black;
+  color: white;
+}
+.grupo-2{
+  background-color: rgb(99, 99, 99);
+}
+.info-1{
+  padding-bottom: 3rem;
+}
+/* .info-link li{
+  text-decoration: none;
+} */
+
 
 @media screen and (min-width:993px){
   main{
     padding: 3rem 10rem 3rem 10rem;
+  }
+  .grupo-1 {
+    padding: 3rem;
   }
   form input, textarea{
     padding: 0.2rem;
