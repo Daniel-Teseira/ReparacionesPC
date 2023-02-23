@@ -1,5 +1,5 @@
-:root{
-}
+/* :root{
+} */
 
 header{
   background-color: rgb(53, 53, 53);
@@ -44,6 +44,7 @@ header li{
 .accordion-body{
   padding: 1rem 3rem;
 }
+
 
 @media screen and (min-width:993px){
   main .contacto,.preguntas,.como_trabajamos {
