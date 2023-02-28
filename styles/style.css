@@ -1,8 +1,15 @@
-/* :root{
-} */
+:root{
+  --bg-header-color: rgb(53, 53, 53);
+  --color-lista-header: rgb(60, 110, 113);
+  --color-link-header: rgb(255, 255, 255);
+  --bg1-footer: black;
+  --bg2-footer: rgb(99, 99, 99);
+  --color-footer: white;
+
+}
 
 header{
-  background-color: rgb(53, 53, 53);
+  background-color: var(--bg-header-color);
   padding: 0.5rem 0rem;
 }
 
@@ -13,22 +20,22 @@ header li{
 .lista{
   list-style-type: none;
   text-decoration: none;
-  color: rgb(60, 110, 113);
+  color: var(--color-lista-header);
   padding: 0rem;
   margin: 0rem;
 }
 
 .lista a{
-  color: rgb(255, 255, 255);
+  color: var(--color-link-header);
   text-decoration: none;
 }
 
 .grupo-1{
-  background-color: black;
-  color: white;
+  background-color: var(--bg1-footer);
+  color: var(--color-footer);
 }
 .grupo-2{
-  background-color: rgb(99, 99, 99);
+  background-color: var(--bg2-footer);
 }
 .info-1{
   padding-bottom: 3rem;
@@ -77,6 +84,6 @@ header li{
   }
   .card_servicio a{
     text-decoration: none;
-    color: rgb(60, 110, 113);
+    color: var(--color-lista-header);
   }
 }
