@@ -54,7 +54,7 @@ header li{
 }
 
 @media screen and (min-width:993px){
-  main .contacto,.preguntas,.como_trabajamos, .nosotros, .porque_nosotros {
+  main .contacto,.preguntas,.como_trabajamos, .nosotros, .porque_nosotros, .servicios {
     padding: 3rem 10rem;
   }
   .nav1{
@@ -70,5 +70,13 @@ header li{
   }
   .informacion{
     padding: 3rem 0rem 0rem 10rem;
+  }
+  .card_servicio{
+    width: 25%;
+    margin: 2rem;    
+  }
+  .card_servicio a{
+    text-decoration: none;
+    color: rgb(60, 110, 113);
   }
 }
