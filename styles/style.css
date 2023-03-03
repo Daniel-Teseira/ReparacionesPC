@@ -5,6 +5,7 @@
   --bg1-footer: black;
   --bg2-footer: rgb(99, 99, 99);
   --color-footer: white;
+  --color-a: rgb(55, 163, 177);
 
 }
 
@@ -82,8 +83,8 @@ header li{
     width: 25%;
     margin: 2rem;    
   }
-  .card_servicio a{
+  .card_servicio a, .contacto a{
     text-decoration: none;
-    color: var(--color-lista-header);
+    color: var(--color-a);
   }
 }
