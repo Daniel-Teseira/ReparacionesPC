@@ -41,9 +41,6 @@ header li{
 .info-1{
   padding-bottom: 3rem;
 }
-/* .info-link li{
-  text-decoration: none;
-} */
 
 .accordion-item{
   padding: 0.5rem 0rem;
@@ -68,7 +65,6 @@ header li{
   .nav1{
     padding: 0rem 10rem;
   }
-
   .grupo-1 {
     padding: 3rem 10rem;
   }
@@ -76,10 +72,7 @@ header li{
     padding: 0.2rem;
     margin: 1rem;
   }
-  .informacion{
-    padding: 3rem 0rem 0rem 10rem;
-  }
-  .card_servicio{
+   .card_servicio{
     width: 25%;
     margin: 2rem;    
   }
