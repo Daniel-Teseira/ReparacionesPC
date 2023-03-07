@@ -6,7 +6,13 @@
   --bg2-footer: rgb(99, 99, 99);
   --color-footer: white;
   --color-a: rgb(55, 163, 177);
-
+ 
+}
+.accordion{
+  --bs-accordion-active-color: var(--color-a);
+  --bs-accordion-active-bg: white;
+  --bs-accordion-btn-focus-border-color: white;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--color-a);
 }
 
 header{
@@ -58,6 +64,24 @@ header li{
   text-align: justify;
 }
 
+.card_servicio a, .contacto a, .como_trabajamos a, .servicios a{
+  text-decoration: none;
+  color: var(--color-a);
+}
+
+.nosotros .card-title1 {
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 6%;
+  transition: background-size .5s;
+}
+
+.nosotros .card-title1:hover, .nosotros .card-title1:focus {
+    background-size: 100% 2px;
+}
+
 @media screen and (min-width:993px){
   main .contacto,.preguntas,.como_trabajamos, .nosotros, .porque_nosotros, .servicios {
     padding: 3rem 10rem;
@@ -76,8 +100,5 @@ header li{
     width: 25%;
     margin: 2rem;    
   }
-  .card_servicio a, .contacto a{
-    text-decoration: none;
-    color: var(--color-a);
-  }
+  
 }
