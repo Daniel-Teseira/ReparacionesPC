@@ -89,6 +89,30 @@ header li{
     background-size: 100% 2px;
 }
 
+@media screen and (max-width:992px){
+  main .contacto,.preguntas,.como_trabajamos, .nosotros, .porque_nosotros, .servicios {
+    padding: 0rem 7rem;
+  }
+} 
+
+@media screen and (max-width:768px){
+  main .contacto,.preguntas,.como_trabajamos, .nosotros, .porque_nosotros, .servicios{
+    padding: 0rem 5rem;
+  }
+}
+
+@media screen and (max-width:576px){
+  main .contacto,.preguntas,.como_trabajamos, .nosotros, .porque_nosotros, .servicios{
+    padding: 0rem 2rem;
+  }
+}
+
+@media screen and (max-width: 472px){
+  main .contacto,.preguntas,.como_trabajamos, .nosotros, .porque_nosotros, .servicios{
+    padding: 0rem 0rem;
+  }
+}
+
 @media screen and (min-width:993px){
   main .contacto,.preguntas,.como_trabajamos, .nosotros, .porque_nosotros, .servicios {
     padding: 3rem 10rem;
@@ -106,6 +130,5 @@ header li{
    .card_servicio{
     width: 25%;
     margin: 2rem;    
-  }
-  
+  }  
 }
